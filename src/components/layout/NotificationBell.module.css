@@ -1,0 +1,131 @@
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.bellButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: #64748b;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+.bellButton:hover {
+    background-color: #f1f5f9;
+    color: #2563eb;
+}
+
+.badge {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    background-color: #ef4444;
+    color: white;
+    font-size: 0.65rem;
+    font-weight: 700;
+    min-width: 16px;
+    height: 16px;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+}
+
+.dropdown {
+    position: absolute;
+    top: 120%;
+    right: 0;
+    width: 320px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.header {
+    padding: 1rem;
+    border-bottom: 1px solid #f1f5f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h3 {
+    margin: 0;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #1e293b;
+}
+
+.notificationList {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.notificationItem {
+    padding: 1rem;
+    border-bottom: 1px solid #f8fafc;
+    text-decoration: none;
+    display: block;
+    transition: background 0.2s;
+}
+
+.notificationItem:hover {
+    background-color: #f8fafc;
+}
+
+.unread {
+    background-color: #eff6ff;
+}
+
+.unread:hover {
+    background-color: #dbeafe;
+}
+
+.message {
+    font-size: 0.85rem;
+    color: #334155;
+    margin: 0 0 0.4rem 0;
+    line-height: 1.4;
+}
+
+.date {
+    font-size: 0.75rem;
+    color: #94a3b8;
+}
+
+.empty {
+    padding: 2rem 1rem;
+    text-align: center;
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
+
+.footer {
+    padding: 0.75rem;
+    background-color: #f8fafc;
+    text-align: center;
+    border-top: 1px solid #f1f5f9;
+}
+
+.viewAll {
+    font-size: 0.85rem;
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.viewAll:hover {
+    text-decoration: underline;
+}

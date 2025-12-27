@@ -1,0 +1,212 @@
+{
+  "users": [
+    {
+      "name": "Jose Arnal",
+      "email": "josevi513@hotmail.com",
+      "password": "123456",
+      "role": "client",
+      "phone": "1133480679",
+      "location": "Munro",
+      "id": "1766799059663",
+      "favorites": []
+    },
+    {
+      "name": "Andres Reparo",
+      "email": "andresreparo@hotmail.com",
+      "password": "123456",
+      "role": "provider",
+      "phone": "1133498524",
+      "location": "CABA",
+      "about": "¿Tenés redes pero no tiempo para manejarlas?\n¿Publicás y no obtenés resultados?\n\nNos encargamos de que tu marca tenga presencia real y profesional en redes.",
+      "avatar": "https://instagram.faep6-2.fna.fbcdn.net/v/t51.2885-19/277605198_151026914052199_367067762931075228_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMxIn0&_nc_ht=instagram.faep6-2.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2QHUvXgjWnNa86BCG7VKggORropO_l-0jltAVQWQeoua3cPI0Z-pG0oVajtkgvSsjGpL1S9sYdq5GSmV7TRH0m93&_nc_ohc=_aJVtplH948Q7kNvwFipFaB&_nc_gid=75kePtDqPb4Mxug6XwdBPQ&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_Afk5DULGL6Ea6AtFk22uc1FB8IDyf-e_IePQq6BYIpLh7Q&oe=6954EBAF&_nc_sid=7a9f4b",
+      "category": "tecnicos-digitales",
+      "id": "1766799174113",
+      "favorites": []
+    }
+  ],
+  "services": [
+    {
+      "id": "1766799289776",
+      "title": "MANEJO DE REDES SOCIALES PARA TU NEGOCIO 🚀📱",
+      "description": "✔️ Gestión de Instagram y Facebook\n✔️ Creación de contenido (posts, historias y reels)\n✔️ Calendario de publicaciones\n✔️ Respuesta a mensajes y comentarios\n✔️ Estrategia para crecer en seguidores reales\n✔️ Análisis de métricas y resultados\n\n🔹 Contenido atractivo\n🔹 Imagen profesional\n🔹 Enfoque en ventas y visibilidad\n\n📍 Ideal para emprendedores, comercios y marcas personales\n📩 Consultanos sin compromiso por mensaje privado o WhatsApp\n\n👉 Vos ocupate de vender, nosotros de tus redes",
+      "category": "tecnicos-digitales",
+      "location": "caba",
+      "price": "50000",
+      "image": "https://relevantmkt.com/wp-content/uploads/marketing-redes-sociales.jpg",
+      "socialInstagram": "https://instagram.com/redes.unt/?hl=en",
+      "socialWhatsapp": "1133498524",
+      "providerId": "1766799174113",
+      "createdAt": "2025-12-27T01:34:49.776Z"
+    }
+  ],
+  "contracts": [
+    {
+      "id": "1766794995349",
+      "serviceId": "1766794386118",
+      "clientId": "1766790898513",
+      "providerId": "1766794213611",
+      "status": "completed",
+      "createdAt": "2025-12-27T00:23:15.349Z"
+    },
+    {
+      "id": "1766796041087",
+      "serviceId": "1766794386118",
+      "clientId": "1766790898513",
+      "providerId": "1766794213611",
+      "status": "rejected",
+      "createdAt": "2025-12-27T00:40:41.087Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "1766795996303",
+      "userId": "1766790898513",
+      "message": "Tu solicitud para el servicio ha sido actualizada a: Aceptada",
+      "type": "system",
+      "link": "/dashboard",
+      "read": false,
+      "createdAt": "2025-12-27T00:39:56.303Z"
+    },
+    {
+      "id": "1766796005762",
+      "userId": "1766790898513",
+      "message": "Tu solicitud para el servicio ha sido actualizada a: Finalizada",
+      "type": "system",
+      "link": "/dashboard",
+      "read": false,
+      "createdAt": "2025-12-27T00:40:05.762Z"
+    },
+    {
+      "id": "1766796715613",
+      "userId": "1766790898513",
+      "message": "Tu solicitud para el servicio ha sido actualizada a: Rechazada",
+      "type": "system",
+      "link": "/dashboard",
+      "read": false,
+      "createdAt": "2025-12-27T00:51:55.613Z"
+    },
+    {
+      "id": "1766797625821",
+      "userId": "1766790898513",
+      "message": "El profesional respondió tu pregunta: \"si...\"",
+      "type": "message",
+      "link": "/services/1766794386118",
+      "read": false,
+      "createdAt": "2025-12-27T01:07:05.821Z"
+    },
+    {
+      "id": "1766797730164",
+      "userId": "1766790898513",
+      "message": "El profesional respondió tu pregunta: \"chau...\"",
+      "type": "message",
+      "link": "/services/1766794386118",
+      "read": false,
+      "createdAt": "2025-12-27T01:08:50.164Z"
+    },
+    {
+      "id": "1766798104349",
+      "userId": "1766790898513",
+      "message": "El profesional respondió tu pregunta: \"si reparo...\"",
+      "type": "message",
+      "link": "/services/1766794386118",
+      "read": false,
+      "createdAt": "2025-12-27T01:15:04.349Z"
+    },
+    {
+      "id": "1766802043095",
+      "userId": "1766799174113",
+      "message": "¡Nueva solicitud! Jose Arnal quiere contratar tu servicio.",
+      "type": "contract",
+      "link": "/dashboard",
+      "read": true,
+      "createdAt": "2025-12-27T02:20:43.095Z"
+    },
+    {
+      "id": "1766803174641",
+      "userId": "1766799174113",
+      "message": "¡Nueva solicitud! Jose Arnal quiere contratar tu servicio.",
+      "type": "contract",
+      "link": "/dashboard",
+      "read": true,
+      "createdAt": "2025-12-27T02:39:34.641Z"
+    },
+    {
+      "id": "1766803193680",
+      "userId": "1766799059663",
+      "message": "Tu solicitud para el servicio ha sido actualizada a: Aceptada",
+      "type": "system",
+      "link": "/dashboard",
+      "read": false,
+      "createdAt": "2025-12-27T02:39:53.680Z"
+    },
+    {
+      "id": "1766803256236",
+      "userId": "1766799059663",
+      "message": "Tu solicitud para el servicio ha sido actualizada a: Finalizada",
+      "type": "system",
+      "link": "/dashboard",
+      "read": false,
+      "createdAt": "2025-12-27T02:40:56.236Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1766795087274",
+      "serviceId": "1766794386118",
+      "authorId": "1766790898513",
+      "rating": 5,
+      "comment": "Excelente",
+      "createdAt": "2025-12-27T00:24:47.274Z"
+    },
+    {
+      "id": "1766803231634",
+      "serviceId": "1766799289776",
+      "authorId": "1766799059663",
+      "rating": 5,
+      "comment": "muy buena atencion, el servicio era lo que buscaba",
+      "createdAt": "2025-12-27T02:40:31.634Z"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1766797291653",
+      "serviceId": "1766794386118",
+      "userId": "1766790898513",
+      "question": "disponible ?",
+      "createdAt": "2025-12-27T01:01:31.653Z",
+      "answer": "si"
+    },
+    {
+      "id": "1766797721095",
+      "serviceId": "1766794386118",
+      "userId": "1766790898513",
+      "question": "hola",
+      "createdAt": "2025-12-27T01:08:41.095Z",
+      "answer": "chau"
+    },
+    {
+      "id": "1766798090801",
+      "serviceId": "1766794386118",
+      "userId": "1766790898513",
+      "question": "repara o no repara",
+      "createdAt": "2025-12-27T01:14:50.801Z",
+      "answer": "si reparo"
+    },
+    {
+      "id": "1766799342087",
+      "serviceId": "1766799289776",
+      "userId": "1766799059663",
+      "question": "hola, esta disponible ?",
+      "createdAt": "2025-12-27T01:35:42.087Z",
+      "answer": "si, esta disponible"
+    },
+    {
+      "id": "1766801159945",
+      "serviceId": "1766799289776",
+      "userId": "1766799059663",
+      "question": "hola ",
+      "createdAt": "2025-12-27T02:05:59.945Z",
+      "answer": "hola"
+    }
+  ]
+}

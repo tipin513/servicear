@@ -1,0 +1,143 @@
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.heartButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: #64748b;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+.heartButton:hover {
+    background-color: #f1f5f9;
+    color: #ef4444;
+}
+
+.badge {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    background-color: #f43f5e;
+    color: white;
+    font-size: 0.65rem;
+    font-weight: 700;
+    min-width: 16px;
+    height: 16px;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+}
+
+.dropdown {
+    position: absolute;
+    top: 120%;
+    right: 0;
+    width: 320px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.header {
+    padding: 1rem;
+    border-bottom: 1px solid #f1f5f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h3 {
+    margin: 0;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #1e293b;
+}
+
+.favoritesList {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.favoriteItem {
+    padding: 1rem;
+    border-bottom: 1px solid #f8fafc;
+    text-decoration: none;
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    transition: background 0.2s;
+}
+
+.favoriteItem:hover {
+    background-color: #f8fafc;
+}
+
+.image {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    object-fit: cover;
+    background-color: #f1f5f9;
+}
+
+.info {
+    flex: 1;
+    min-width: 0;
+}
+
+.title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #334155;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.price {
+    font-size: 0.8rem;
+    color: #059669;
+    font-weight: 500;
+    margin: 0.1rem 0 0 0;
+}
+
+.empty {
+    padding: 2rem 1rem;
+    text-align: center;
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
+
+.footer {
+    padding: 0.75rem;
+    background-color: #f8fafc;
+    text-align: center;
+    border-top: 1px solid #f1f5f9;
+}
+
+.viewAll {
+    font-size: 0.85rem;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.viewAll:hover {
+    text-decoration: underline;
+}

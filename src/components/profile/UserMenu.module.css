@@ -1,0 +1,110 @@
+.container {
+    position: relative;
+}
+
+.trigger {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.25rem;
+    border-radius: var(--radius);
+    transition: background 0.2s;
+}
+
+.trigger:hover {
+    background-color: #f1f5f9;
+}
+
+.trigger:hover {
+    background-color: #f1f5f9;
+}
+
+.avatar {
+    width: 36px;
+    height: 36px;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: var(--text);
+}
+
+.dropdown {
+    position: absolute;
+    top: 120%;
+    right: 0;
+    width: 240px;
+    background: white;
+    border-radius: var(--radius);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border: 1px solid var(--border);
+    z-index: 100;
+    overflow: hidden;
+}
+
+.userInfo {
+    padding: 1rem;
+    background-color: #f8fafc;
+}
+
+.userEmail {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text);
+    margin: 0 0 0.2rem 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.userRole {
+    font-size: 0.8rem;
+    color: var(--text-light);
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--text);
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.item:hover {
+    background-color: #f1f5f9;
+}
+
+.danger {
+    color: var(--error);
+}
+
+.danger:hover {
+    background-color: #fee2e2;
+}
+
+.divider {
+    height: 1px;
+    background-color: var(--border);
+    margin: 0;
+}

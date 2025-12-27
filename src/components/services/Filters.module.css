@@ -1,0 +1,72 @@
+.filters {
+    background-color: white;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    margin-bottom: 0.5rem;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text);
+    cursor: pointer;
+    padding: 4px 0;
+}
+
+.label.active {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.checkbox,
+.radio {
+    accent-color: var(--primary);
+}
+
+.priceRange {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.priceInput {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    font-size: 0.9rem;
+}
+
+.separator {
+    color: var(--text-light);
+}
+
+.select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    font-size: 0.9rem;
+    background-color: white;
+}
